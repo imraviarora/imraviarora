@@ -26,7 +26,7 @@ Architected multi-AZ EKS platform for 500K+ users. Owned the full AWS stack end 
 
 ---
 
-## 🏆  A few things I'm proud of
+### 🏆  A few things I'm proud of
 **Killed a $76K/month AWS bill** — AWS Textract was running $80K/month for document processing. Spun up Llama 3.1 on EC2 to do the same job. Now it costs $4K.
 
 **Pipeline onboarding: 1 day → 10 minutes** — Built a self-service GitLab CI/CD template library. Dev teams go from zero to running pipelines without touching YAML from scratch.
@@ -43,7 +43,7 @@ Architected multi-AZ EKS platform for 500K+ users. Owned the full AWS stack end 
 - Self-hosted LLM inference on EC2 (replaced AWS Textract at $4K/month vs the $80K it was costing)
 - Kubernetes-native GitLab runners on EKS with autoscaling and per-project isolation
 
-## Tech I use regularly
+### 🛠️ Tech I use regularly
 
 ```
 Cloud        →  AWS, GCP, Azure
@@ -52,15 +52,16 @@ CI/CD        →  GitLab CI, Jenkins, Azure Pipelines, CodeBuild, TeamCity, Bitr
 IaC          →  Terraform, CloudFormation, Ansible
 Security     →  SonarQube, Semgrep, Black Duck, OWASP ZAP, Wiz, AquaSec, HashiCorp Vault
 Monitoring   →  Prometheus, Grafana, DataDog, CloudWatch, ELK, Splunk
-Languages    →  Python, Bash, PowerShell, Groovy, Go
-AI Tools     →  Claude Sonnet, CodeRabbit, GitHub Copilot, Llama 3.1 (self-hosted)
+Languages    →  Python, Bash, PowerShell
+AI           →  Claude Sonnet, CodeRabbit, GitHub Copilot, Llama 3.1 (self-hosted)
+OS           →  Windows Server, Linux, Ubuntu
 ```
 
-## Currently exploring
+### 🕵 Currently exploring
 
 - Agentic AI in DevSecOps (automated code review via CodeRabbit, Claude-assisted incident triage)
 - eBPF-based observability
 - Platform engineering patterns — moving from "shared infra team" to internal developer platforms
 
 ---
-Open to interesting infrastructure / SRE / platform engineering conversations.
+🤝🏻 Open to interesting infrastructure / SRE / platform engineering conversations.
